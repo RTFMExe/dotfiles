@@ -18,3 +18,9 @@ alias grep='grep --color'
 alias psf='ps -ef'
 alias pdf='firefox'
 
+gcd() {
+    # clone repo and cd into folder
+    if [ ! -z $1 ]; then
+        git clone $1 && cd $(basename -s ".git" $1)
+    fi
+}
