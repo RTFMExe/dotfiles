@@ -1,0 +1,27 @@
+! misc
+urxvt*font: -xos4-terminus-medium-r-normal-*-12-*-*-*-*-*-*-*
+urxvt*scrollBar: false
+urxvt*saveLines: 5000
+
+! colors
+urxvt*foreground: #FFFFFF
+urxvt*background: #152639
+urxvt*cursorColor: #F6CBB4
+
+urxvt*color0: #1C3552
+urxvt*color1: #4371BB
+urxvt*color2: #9D6D8E
+urxvt*color3: #D2758A
+urxvt*color4: #6890AA
+urxvt*color5: #9E92A5
+urxvt*color6: #E5A5A8
+urxvt*color7: #F6CBB4
+urxvt*color8: #666666
+urxvt*color9: #4371BB
+urxvt*color10: #9D6D8E
+urxvt*color11: #D2758A
+urxvt*color12: #6890AA
+urxvt*color13: #9E92A5
+urxvt*color14: #E5A5A8
+urxvt*color15: #F6CBB4
+urxvt*color66: #1C3552
