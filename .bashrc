@@ -43,3 +43,12 @@ xlck() {
             ;;
     esac
 }
+
+start_steam() {
+    if ! ps -C steam >/dev/null; then
+        xhost + 
+        sudo -iu steam \$HOME/start-steam.sh &>/dev/null &
+    else
+        printf "Steam is running\n"
+    fi
+} 
