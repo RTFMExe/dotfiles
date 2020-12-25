@@ -34,6 +34,7 @@ set expandtab
 " indentation
 set autoindent
 set smartindent
+filetype plugin indent on
 
 " highlight search
 set hlsearch
@@ -43,3 +44,5 @@ set incsearch
 
 " case insesitive
 set ignorecase
+
+
